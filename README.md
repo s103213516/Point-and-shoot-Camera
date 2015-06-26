@@ -158,15 +158,35 @@ Linux系統管理實務　期末報告　第二組  <br/>
 		2. 修改該檔案的權限。<br/> 
 		sudo chmod 755 sendip.sh<br/> 
 		3. 設定該shell檔可以一開機就執行。<br/>
-		sudo update-rc.d sendip.sh defaults。<br/> </td>
+		sudo update-rc.d sendip.sh defaults</td>
 	</tr>
 	<tr>
-		<td>3</td>
-		<td>4</td>
+		<td>相機</td>
+		<td>1. 輸入raspi-config指令，設定相機的驅動程式。<br/>
+		raspi-config>Enable Camera>Enable</td>
 	</tr>
 	<tr>
-		<td>3</td>
-		<td>4</td>
+		<td>觸控面板(顯示)</td>
+		<td>1. Raspberry Pi 的顯示輸出從 HDMI bus 換成 SPI bus<br/>
+		sudo nano /usr/share/X11/xorg.conf.d/99-fbturbo.conf<br/>
+		“fbdev /dev/fb0”> fbdev /dev/fb1”<br/>
+		2. TFT會使用到SPI，所以進入到raspi-config中設定SPI，因為預設的SPI是關閉的。<br/>
+		raspi-config>Advanced Options>SPI>Yes<br/>
+		3. SPI功能加入blacklist file<br/>
+		sudo vim /etc/modprobe.d/raspi-blacklist<br/>
+		加入相關設定<br/>
+		4. 將TFT顯示與觸控的模組加入kernel<br/>
+		sudo vim /etc/modules<br/>
+		加入相關設定<br/>
+		5. 修改/boot/cmdline.txt<br/>
+		加入相關設定<br/>
+		6. 設定成開機就會執行<br/>
+		sudo nano /etc/rc.local <br/>
+		加入 su -l pi -o startx<br/>
+		7. 校準命令<br/>
+		sudo TSLIB_FBDEVICE=/dev/fb1<br/>
+		sudo TSLIB_TSDEVICE=/dev/input/touchscreen <br/>
+		ts_calibrate</td>
 	</tr>
 </table>
 

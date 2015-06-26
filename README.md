@@ -26,38 +26,51 @@ Linux系統管理實務　期末報告　第二組  <br/>
 		<td>800</td>
 	</tr>
 	<tr>
-		<td></td>
+		<td>相機</td>
 		<td>1</td>
-		<td>露天拍賣組員提供</td>
+		<td>露天拍賣</td>
+		<td>740</td>
+	</tr>
+	<tr>
+		<td>按鈕</td>
+		<td>5</td>
+		<td>組員提供</td>
 		<td>   </td>
 	</tr>
 	<tr>
-		<td></td>
+		<td>LED燈</td>
+		<td>3</td>
+		<td>露天拍賣</td>
+		<td>5</td>
+	</tr>
+	<tr>
+		<td>麵包板</td>
 		<td>1</td>
-		<td>露天拍賣組員提供</td>
+		<td>組員提供</td>
 		<td>   </td>
 	</tr>
 	<tr>
-		<td></td>
-		<td>1</td>
-		<td>露天拍賣組員提供</td>
+		<td>銲接板</td>
+		<td>3</td>
+		<td>組員提供</td>
 		<td>   </td>
 	</tr>
 	<tr>
-		<td></td>
-		<td>1</td>
-		<td>露天拍賣組員提供</td>
-		<td>   </td>
+		<td>杜邦線</td>
+		<td>數條</td>
+		<td>露天拍賣</td>
+		<td>100</td>
 	</tr>
 	<tr>
-		<td></td>
-		<td>1</td>
-		<td>露天拍賣組員提供</td>
-		<td>   </td>
-	</tr><tr>
-		<td></td>
-		<td>1</td>
-		<td>露天拍賣組員提供</td>
+		<td>排針</td>
+		<td>數排</td>
+		<td>露天拍賣</td>
+		<td>8</td>
+	</tr>
+	<tr>
+		<td>瓦楞紙板</td>
+		<td>數片</td>
+		<td>組員提供</td>
 		<td>   </td>
 	</tr>
 </table>

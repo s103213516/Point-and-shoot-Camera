@@ -131,7 +131,43 @@ Linux系統管理實務　期末報告　第二組  <br/>
 
 
 # 玖、 工作分配表
-
+<table>
+  <tr>
+		<td>   </td>
+		<td>吳宗翰</td>
+		<td>高玟瑜</td>
+	</tr>
+	<tr>
+		<td>電路銲接</td>
+		<td>✔</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>麵包板電路設計</td>
+		<td>✔</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>相關資料搜尋、彙整</td>
+		<td></td>
+		<td>✔</td>
+	</tr>
+	<tr>
+		<td>程式撰寫</td>
+		<td>✔</td>
+		<td>✔</td>
+	</tr>
+	<tr>
+		<td>外觀製作</td>
+		<td></td>
+		<td>✔</td>
+	</tr>
+	<tr>
+		<td>文件處理</td>
+		<td></td>
+		<td>✔</td>
+	</tr>
+</table>
 
 
 

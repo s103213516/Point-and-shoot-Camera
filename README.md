@@ -108,19 +108,45 @@ Linux系統管理實務　期末報告　第二組  <br/>
 		<td>在網路上找到一家網站的實作可以成功顯示樹莓的桌面，但卻一直無法觸控，經過不斷的重灌、除錯後，觸控功能總算是完成了。</td>
 	</tr>
 </table>
+# 伍、 運用哪些與課程內容中相關的技巧
+1. 開機時，將IP寄到信箱
+2. 將照片上傳Google Drive
+
+# 陸、 實際產出
+
+
+
+
+
+# 柒、 組裝過程及製作教學
 
 
 
 
 
 
+# 捌、 操作教學
+
+
+
+
+# 玖、 工作分配表
 
 
 
 
 
 
-
-
-
-
+# 拾、 參考來源
+1. 封面照片：
+http://iguang.tw/gohappy/product/24955.html
+2. Raspberry Pi最佳入門與實戰應用，碁峰資訊股份有限公司，2015年02月
+3. 電路參考：
+https://sites.google.com/site/raspberrypidiy/home
+4. TFT畫面顯示：
+http://mcuapps.com/blog/build-lcd-touchscreen-drivers-for-raspberry-pi
+5. TFT面板觸控功能： <br/>
+(1) http://mcuapps.com/blog/build-lcd-touchscreen-drivers-for-raspberry-pi <br/>
+(2) http://www.geekfan.net/5618/
+6. TFT面板與相機同步顯示：
+https://learn.adafruit.com/diy-wifi-raspberry-pi-touch-cam/pi-setup
